@@ -25,7 +25,7 @@ const numStats = 8;
 
 // Fetches the masterList, which stores all the data for very character
 async function getFile(){
-    const URL = "https://bennysando.github.io/masterList.json";
+    const URL = "https://Fire-Emblem-Level-Up-Simulator/masterList.json";
     const request = new Request(URL);
     const response = await fetch(request);
     const file = response.json();
