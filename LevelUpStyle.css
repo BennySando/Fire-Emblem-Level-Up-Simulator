@@ -1,0 +1,140 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(44, 2, 86)
+}
+
+
+h1, .description {
+    text-align: center;
+    color: rgb(231, 229, 229)
+}
+
+.characterData {
+    margin-left: 60px;
+    padding-top: 10px;
+    height: 100%;
+}
+
+.characterData image {
+    display: block;
+    margin-top: 50px;
+}
+
+.characterData select {
+    margin-top: 10px;
+}
+
+.characterData select, .characterData label {
+    display: inline-block;
+}
+
+.characterData, .buttonSpace {
+    display: inline-block;
+    width: 40%;
+}
+
+.buttonSpace {
+    align-content: center;
+    margin-bottom: 60px;
+}
+
+.buttonSpace button {
+    width: 49%;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: rgb(33, 33, 210);
+    color: white;
+    border-width: 5px;
+    border-color: gold;
+}
+
+.controls {
+    margin: 0 auto;
+    background-color: rgb(252, 233, 215);
+    width: 60%;
+    height: 190px;
+    max-height: 190px;
+    border-width: 2px;
+    border-color: black;
+}
+
+.classData {
+    margin: 0 auto;
+    width: 40%;
+    padding: 10px;
+    background-color: rgb(154, 12, 12);
+    border-width: 2px;
+    border-color: rgb(222, 189, 0);
+    margin-top: 5px;
+}
+
+.classData p {
+    display: inline-block;
+    width: 50%;
+    color: white;
+}
+
+.level {
+    text-align: right;
+}
+
+.statWindow {
+    margin: 0 auto;
+    width: 40%;
+    background-color: rgb(3, 3, 155);
+    border-width: 2px;
+    border-color: rgb(222, 189, 0);
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.statLine p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.leftStat, .statLabel {
+    text-align: left;
+    width: 20%;
+}
+
+.statLabel {
+    margin-left: 70px;
+}
+
+.rightStat {
+    text-align: right;
+}
+
+.modifierSpace {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 95%;
+    background-color: rgb(252, 233, 215);
+}
+
+.modifierSpace p {
+    text-align: center;
+}
+
+.tutorials {
+    width: 90%;
+    margin: 0 auto; 
+}
+
+.tutTitle, .tutorial {
+    text-align: center;
+    color: white;
+}
+
+a:active {
+    color: grey;
+}
+
+a:visited {
+    color: grey;
+}
